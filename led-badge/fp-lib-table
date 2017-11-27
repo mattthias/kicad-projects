@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name kicad_logo_copper)(type KiCad)(uri "$(KIPRJMOD)/kicad_logo_copper.pretty")(options "")(descr ""))
+)
