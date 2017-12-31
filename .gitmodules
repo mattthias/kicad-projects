@@ -1,0 +1,3 @@
+[submodule "libs/wemos-d1-mini-kicad"]
+	path = libs/wemos-d1-mini-kicad
+	url = https://github.com/mattthias/wemos-d1-mini-kicad.git
