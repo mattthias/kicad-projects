@@ -1,3 +1,6 @@
 [submodule "libs/wemos-d1-mini-kicad"]
 	path = libs/wemos-d1-mini-kicad
 	url = https://github.com/mattthias/wemos-d1-mini-kicad.git
+[submodule "libs/Rotary-Encoders.pretty"]
+	path = libs/Rotary-Encoders.pretty
+	url = https://github.com/mattthias/Rotary-Encoders.pretty.git
