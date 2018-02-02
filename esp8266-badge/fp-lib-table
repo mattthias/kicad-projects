@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name display-oled-lcd-iic)(type KiCad)(uri ${KIPRJMOD}/../libs/display-oled-lcd-iic/display-oled-lcd-iic.pretty)(options "")(descr ""))
+  (lib (name wemos-d1-mini)(type KiCad)(uri ${KIPRJMOD}/../libs/wemos-d1-mini-kicad/modules/wemos-d1-mini.pretty)(options "")(descr ""))
+  (lib (name Connect)(type KiCad)(uri "$(KISYSMOD)Connect.pretty")(options "")(descr ""))
+  (lib (name Rotary-Encoders)(type KiCad)(uri /home/dest/git/kicad-projects/libs/Rotary-Encoders.pretty)(options "")(descr ""))
+  (lib (name matthias)(type KiCad)(uri /home/dest/git/kicad-projects/libs/matthias.pretty)(options "")(descr ""))
+)
