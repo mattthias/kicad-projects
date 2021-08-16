@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L led-badge-rescue:LED-led-badge-rescue D1
+L led-badge-rescue:LED D1
 U 1 1 5A09DB5C
 P 4450 3100
 F 0 "D1" H 4450 3200 50  0000 C CNN
@@ -25,7 +25,7 @@ F 3 "" H 4450 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L led-badge-rescue:R-led-badge-rescue R1
+L led-badge-rescue:R R1
 U 1 1 5A09DC6C
 P 4950 2900
 F 0 "R1" V 5030 2900 50  0000 C CNN
@@ -36,7 +36,7 @@ F 3 "" H 4950 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L led-badge-rescue:SW_SPST-led-badge-rescue SW1
+L led-badge-rescue:SW_SPST SW1
 U 1 1 5A09DDCC
 P 4450 2700
 F 0 "SW1" H 4450 2825 50  0000 C CNN
@@ -111,7 +111,7 @@ Wire Wire Line
 	3500 2600 3500 2700
 Connection ~ 3850 2700
 $Comp
-L led-badge-rescue:Battery_Cell-led-badge-rescue BT1
+L led-badge-rescue:Battery_Cell BT1
 U 1 1 5A0A1E68
 P 3850 2950
 F 0 "BT1" H 3950 3050 50  0000 L CNN

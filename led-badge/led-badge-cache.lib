@@ -1,11 +1,11 @@
-EESchema-LIBRARY Version 2.3
+EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Battery_Cell
+# led-badge-rescue_Battery_Cell-led-badge-rescue
 #
-DEF Battery_Cell BT 0 0 N N 1 F N
+DEF led-badge-rescue_Battery_Cell-led-badge-rescue BT 0 0 N N 1 F N
 F0 "BT" 100 100 50 H V L CNN
-F1 "Battery_Cell" 100 0 50 H V L CNN
+F1 "led-badge-rescue_Battery_Cell-led-badge-rescue" 100 0 50 H V L CNN
 F2 "" 0 60 50 V I C CNN
 F3 "" 0 60 50 V I C CNN
 DRAW
@@ -20,24 +20,11 @@ X - 2 0 -100 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# GND
+# led-badge-rescue_LED-led-badge-rescue
 #
-DEF GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# LED
-#
-DEF LED D 0 40 Y N 1 F N
+DEF led-badge-rescue_LED-led-badge-rescue D 0 40 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "LED" 0 -100 50 H V C CNN
+F1 "led-badge-rescue_LED-led-badge-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -54,24 +41,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# PWR_FLAG
+# led-badge-rescue_R-led-badge-rescue
 #
-DEF PWR_FLAG #FLG 0 0 N N 1 F P
-F0 "#FLG" 0 75 50 H I C CNN
-F1 "PWR_FLAG" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-X pwr 1 0 0 0 U 50 50 0 0 w
-P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
-ENDDRAW
-ENDDEF
-#
-# R
-#
-DEF R R 0 0 N Y 1 F N
+DEF led-badge-rescue_R-led-badge-rescue R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R" 0 0 50 V V C CNN
+F1 "led-badge-rescue_R-led-badge-rescue" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -85,11 +59,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# SW_SPST
+# led-badge-rescue_SW_SPST-led-badge-rescue
 #
-DEF SW_SPST SW 0 0 Y N 1 F N
+DEF led-badge-rescue_SW_SPST-led-badge-rescue SW 0 0 Y N 1 F N
 F0 "SW" 0 125 50 H V C CNN
-F1 "SW_SPST" 0 -100 50 H V C CNN
+F1 "led-badge-rescue_SW_SPST-led-badge-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -101,16 +75,43 @@ X B 2 200 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# VCC
+# power_GND
 #
-DEF VCC #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "VCC" 0 150 50 H V C CNN
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
-C 0 75 25 0 1 0 N
-P 2 0 1 0 0 0 0 50 N
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_PWR_FLAG
+#
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+# power_VCC
+#
+DEF power_VCC #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_VCC" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
 X VCC 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
